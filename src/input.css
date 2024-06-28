@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-4xl font-semibold text-center;
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-neutral-800 to-red-500;
+}
+
+body {
+  @apply flex flex-col items-center justify-center min-h-screen;
+}
+
+form {
+  @apply flex justify-center w-full gap-1 p-2 my-5;
+}
+
+input {
+  @apply text-center border rounded-full border-neutral-200;
+}
+
+button {
+  @apply px-4 py-2 rounded-full bg-neutral-200 text-neutral-800;
+}
