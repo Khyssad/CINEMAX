@@ -8,7 +8,7 @@
 // If you did not make this request, please disregard this email.
 
 
-import { useState } from 'react'
+import React, { useState, ChangeEvent } from 'react';
 import { motion } from 'framer-motion'
 import Card from './components/Card';
 
@@ -134,7 +134,7 @@ export default function App() {
           <input
             type="text"
             value={query}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setQuery(e.target.value)}
+            onChange={(e: ChangeEvent<HTMLInputElement>) => setQuery(e.target.value)}
           />
           <button>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
