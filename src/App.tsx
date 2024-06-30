@@ -90,11 +90,12 @@ export default function App() {
   const [query, setQuery] = useState("")
   const [error, setError] = useState("")
 
-  const searchMovie = async (e: React.FormEvent<HTMLInputElement>) => {
-    e.preventDefault() // On limite le formulaire à la soumission
-    if (query.trim().length > 2) {
+  const searchMovie = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault() // On empêche le comportement par défaut du formulaire
+    if (query.trim().length < 3) {
       setError("Merci de tapez un mot-clé de 3 caractères minimum")
-    } // Si le champ est vide ou trop court on affiche une erreur
+      return
+    }
 
     const url = `http://www.omdbapi.com/?apikey=89620012&s=${query}`
     try {
@@ -132,6 +133,7 @@ export default function App() {
         <form onSubmit={searchMovie}>
           <input
             type="text"
+            value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
           <button>
