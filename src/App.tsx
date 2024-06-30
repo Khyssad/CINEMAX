@@ -97,7 +97,7 @@ export default function App() {
       return
     }
 
-    const url = `http://www.omdbapi.com/?apikey=89620012&s=${query}`
+    const url = `https://www.omdbapi.com/?apikey=89620012&s=${query}`
     try {
       const res = await fetch(url) // On fetch l'API OMDB
       const data = await res.json() // On récupère les données et les converti
