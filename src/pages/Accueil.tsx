@@ -21,7 +21,7 @@ export default function App() {
     const fetchRecettes = async () => {
         setIsLoading(true);
         try {
-            const response = await fetch('http://localhost:3001/recettes');
+            const response = await fetch('https://api-recette-26n5.onrender.com/recettes');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }

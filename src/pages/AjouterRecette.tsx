@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Recette } from '../type';
 
-const API_URL = 'http://localhost:3001/recettes'; // Ajustez l'URL selon votre configuration
+const API_URL = 'https://api-recette-26n5.onrender.com/recettes';  // Ajustez l'URL selon votre configuration
 
 const AjouterRecette: React.FC = () => {
   const [recette, setRecette] = useState<Omit<Recette, 'id'>>({
