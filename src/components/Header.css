@@ -1,0 +1,19 @@
+/* Header.css */
+.nav-links {
+    display: flex;
+    gap: 1.5rem; /* Espacement entre les liens */
+  }
+  
+  .nav-link {
+    padding-bottom: 0.25rem; /* Espace pour la bordure */
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: #90cdf4; /* Couleur de survol (bleu clair) */
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+  }

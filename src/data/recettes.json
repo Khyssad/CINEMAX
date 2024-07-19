@@ -1,0 +1,1771 @@
+{
+    "recettes": [
+      {
+        "id": 1,
+        "nom": "Ratatouille",
+        "description": "Un plat végétarien provençal savoureux et coloré",
+        "temps_preparation": 30,
+        "temps_cuisson": 60,
+        "difficulte": "Moyenne",
+        "personnes": 4,
+        "ingredients": [
+          "2 aubergines",
+          "3 courgettes",
+          "2 poivrons (1 rouge, 1 jaune)",
+          "4 tomates",
+          "1 oignon",
+          "3 gousses d'ail",
+          "Huile d'olive",
+          "Herbes de Provence",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Laver et couper tous les légumes en dés d'environ 1 cm.",
+          "Dans une grande poêle, faire revenir l'oignon et l'ail dans l'huile d'olive.",
+          "Ajouter les autres légumes, les herbes, le sel et le poivre.",
+          "Laisser mijoter à feu doux pendant 1 heure en remuant de temps en temps.",
+          "Servir chaud ou froid."
+        ],
+        "categorie": "Plat principal"
+      },
+      {
+        "id": 2,
+        "nom": "Quiche Lorraine",
+        "description": "Une tarte salée classique de la cuisine française",
+        "temps_preparation": 20,
+        "temps_cuisson": 30,
+        "difficulte": "Facile",
+        "personnes": 6,
+        "ingredients": [
+          "1 pâte brisée",
+          "200g de lardons",
+          "4 œufs",
+          "20cl de crème fraîche",
+          "20cl de lait",
+          "100g de fromage râpé",
+          "Noix de muscade",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Préchauffer le four à 180°C.",
+          "Étaler la pâte dans un moule à tarte et la piquer avec une fourchette.",
+          "Faire revenir les lardons à la poêle.",
+          "Battre les œufs avec la crème et le lait, ajouter le fromage râpé, la muscade, le sel et le poivre.",
+          "Répartir les lardons sur le fond de tarte, puis verser la préparation aux œufs.",
+          "Enfourner pour 30 minutes jusqu'à ce que la quiche soit dorée."
+        ],
+        "categorie": "Entrée"
+      },
+      {
+        "id": 3,
+        "nom": "Coq au vin",
+        "description": "Un plat traditionnel français à base de poulet et de vin rouge",
+        "temps_preparation": 30,
+        "temps_cuisson": 90,
+        "difficulte": "Difficile",
+        "personnes": 6,
+        "ingredients": [
+          "1 poulet découpé",
+          "200g de lardons",
+          "500g de champignons de Paris",
+          "20 petits oignons",
+          "2 carottes",
+          "2 gousses d'ail",
+          "1 bouteille de vin rouge",
+          "25cl de cognac",
+          "2 cuillères à soupe de farine",
+          "Bouquet garni",
+          "Huile",
+          "Beurre",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Faire revenir les morceaux de poulet dans un mélange d'huile et de beurre jusqu'à ce qu'ils soient dorés.",
+          "Ajouter les lardons, les champignons et les petits oignons, faire revenir.",
+          "Saupoudrer de farine, mélanger puis mouiller avec le cognac et le vin rouge.",
+          "Ajouter l'ail écrasé, les carottes en rondelles et le bouquet garni.",
+          "Saler, poivrer et laisser mijoter à feu doux pendant 1h30.",
+          "Servir chaud, accompagné de pommes de terre ou de pâtes."
+        ],
+        "categorie": "Plat principal"
+      },
+      {
+        "id": 4,
+        "nom": "Crêpes",
+        "description": "Dessert classique français, parfait pour la Chandeleur",
+        "temps_preparation": 10,
+        "temps_cuisson": 20,
+        "difficulte": "Facile",
+        "personnes": 4,
+        "ingredients": [
+          "250g de farine",
+          "4 œufs",
+          "50cl de lait",
+          "50g de beurre fondu",
+          "2 cuillères à soupe de sucre",
+          "1 pincée de sel"
+        ],
+        "etapes": [
+          "Mélanger la farine, le sucre et le sel dans un saladier.",
+          "Ajouter les œufs battus et mélanger.",
+          "Incorporer progressivement le lait tout en fouettant pour éviter les grumeaux.",
+          "Ajouter le beurre fondu et mélanger.",
+          "Laisser reposer la pâte 1 heure à température ambiante.",
+          "Cuire les crêpes dans une poêle chaude légèrement beurrée."
+        ],
+        "categorie": "Dessert"
+      },
+      {
+        "id": 5,
+        "nom": "Soupe à l'oignon",
+        "description": "Une soupe réconfortante typique de la cuisine française",
+        "temps_preparation": 20,
+        "temps_cuisson": 45,
+        "difficulte": "Moyenne",
+        "personnes": 4,
+        "ingredients": [
+          "1kg d'oignons",
+          "50g de beurre",
+          "1 cuillère à soupe de farine",
+          "1,5L de bouillon de bœuf",
+          "100g de fromage râpé (gruyère ou emmental)",
+          "4 tranches de pain",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Émincer finement les oignons.",
+          "Les faire fondre dans le beurre à feu doux jusqu'à ce qu'ils soient dorés.",
+          "Saupoudrer de farine, mélanger et laisser cuire 1 minute.",
+          "Ajouter le bouillon chaud, saler et poivrer.",
+          "Laisser mijoter 30 minutes à feu doux.",
+          "Préchauffer le gril du four.",
+          "Verser la soupe dans des bols allant au four.",
+          "Déposer une tranche de pain sur chaque bol et recouvrir de fromage râpé.",
+          "Passer sous le gril jusqu'à ce que le fromage soit gratiné."
+        ],
+        "categorie": "Entrée"
+      },
+      {
+        "id": 6,
+        "nom": "Bœuf Bourguignon",
+        "description": "Un ragoût de bœuf mijotée dans du vin rouge de Bourgogne",
+        "temps_preparation": 30,
+        "temps_cuisson": 180,
+        "difficulte": "Moyenne",
+        "personnes": 6,
+        "ingredients": [
+          "1kg de bœuf à braiser",
+          "200g de lardons",
+          "500g de champignons de Paris",
+          "20 petits oignons",
+          "2 carottes",
+          "1 bouteille de vin rouge de Bourgogne",
+          "2 gousses d'ail",
+          "1 bouquet garni",
+          "2 cuillères à soupe de farine",
+          "Huile",
+          "Beurre",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Couper la viande en cubes de 3-4 cm.",
+          "Faire revenir les lardons et les oignons dans un mélange d'huile et de beurre.",
+          "Ajouter la viande et faire dorer.",
+          "Saupoudrer de farine, mélanger puis mouiller avec le vin rouge.",
+          "Ajouter l'ail écrasé, les carottes en rondelles et le bouquet garni.",
+          "Saler, poivrer et laisser mijoter à feu doux pendant 3 heures.",
+          "30 minutes avant la fin, ajouter les champignons sautés.",
+          "Servir chaud avec des pommes de terre vapeur."
+        ],
+        "categorie": "Plat principal"
+      },
+      {
+        "id": 7,
+        "nom": "Tarte Tatin",
+        "description": "Une tarte aux pommes caramélisées renversée",
+        "temps_preparation": 30,
+        "temps_cuisson": 40,
+        "difficulte": "Moyenne",
+        "personnes": 8,
+        "ingredients": [
+          "1 pâte feuilletée",
+          "1kg de pommes Golden",
+          "150g de sucre",
+          "100g de beurre",
+          "1 pincée de cannelle"
+        ],
+        "etapes": [
+          "Peler et couper les pommes en quartiers.",
+          "Dans un moule à tarte, faire fondre le beurre avec le sucre jusqu'à obtention d'un caramel.",
+          "Disposer les quartiers de pommes en rosace sur le caramel.",
+          "Saupoudrer de cannelle.",
+          "Recouvrir avec la pâte feuilletée en rentrant les bords à l'intérieur du moule.",
+          "Cuire au four à 180°C pendant 30-40 minutes.",
+          "Laisser tiédir avant de retourner la tarte sur un plat."
+        ],
+        "categorie": "Dessert"
+      },
+      {
+        "id": 8,
+        "nom": "Salade Niçoise",
+        "description": "Une salade composée originaire de Nice",
+        "temps_preparation": 20,
+        "temps_cuisson": 10,
+        "difficulte": "Facile",
+        "personnes": 4,
+        "ingredients": [
+          "400g de tomates",
+          "1 poivron vert",
+          "1 concombre",
+          "200g de thon en conserve",
+          "4 œufs durs",
+          "100g d'olives noires",
+          "1 oignon rouge",
+          "4 filets d'anchois",
+          "Basilic frais",
+          "Huile d'olive",
+          "Vinaigre balsamique",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Laver et couper les tomates en quartiers.",
+          "Épépiner et émincer le poivron.",
+          "Peler et couper le concombre en rondelles.",
+          "Émincer l'oignon rouge.",
+          "Disposer tous les légumes dans un saladier.",
+          "Ajouter le thon émietté, les œufs durs coupés en quartiers, les olives et les anchois.",
+          "Préparer une vinaigrette avec l'huile d'olive et le vinaigre balsamique.",
+          "Assaisonner la salade avec la vinaigrette, le sel, le poivre et le basilic ciselé."
+        ],
+        "categorie": "Entrée"
+      },
+      {
+        "id": 9,
+        "nom": "Cassoulet",
+        "description": "Un plat traditionnel du sud-ouest de la France à base de haricots blancs et de viandes",
+        "temps_preparation": 30,
+        "temps_cuisson": 180,
+        "difficulte": "Difficile",
+        "personnes": 8,
+        "ingredients": [
+          "1kg de haricots blancs secs",
+          "500g de saucisses de Toulouse",
+          "500g de poitrine de porc",
+          "4 cuisses de canard confites",
+          "2 oignons",
+          "2 carottes",
+          "3 gousses d'ail",
+          "1 bouquet garni",
+          "2 boîtes de tomates pelées",
+          "Graisse de canard",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Faire tremper les haricots la veille.",
+          "Cuire les haricots dans de l'eau bouillante avec un oignon piqué de clous de girofle et le bouquet garni.",
+          "Dans une cocotte, faire revenir les saucisses et la poitrine de porc coupée en morceaux.",
+          "Ajouter les oignons émincés, les carottes en rondelles et l'ail écrasé.",
+          "Ajouter les tomates pelées et laisser mijoter 10 minutes.",
+          "Incorporer les haricots égouttés et couvrir d'eau.",
+          "Laisser mijoter à feu doux pendant 2 heures.",
+          "Ajouter les cuisses de canard confites et poursuivre la cuisson 1 heure.",
+          "Servir bien chaud."
+        ],
+        "categorie": "Plat principal"
+      },
+      {
+        "id": 10,
+        "nom": "Mousse au Chocolat",
+        "description": "Un dessert aérien et chocolaté",
+        "temps_preparation": 20,
+        "temps_cuisson": 0,
+        "difficulte": "Moyenne",
+        "personnes": 6,
+        "ingredients": [
+          "200g de chocolat noir",
+          "6 œufs",
+          "50g de sucre",
+          "1 pincée de sel"
+        ],
+        "etapes": [
+          "Faire fondre le chocolat au bain-marie.",
+          "Séparer les blancs des jaunes d'œufs.",
+          "Mélanger les jaunes avec le sucre jusqu'à ce que le mélange blanchisse.",
+          "Incorporer le chocolat fondu aux jaunes d'œufs.",
+          "Monter les blancs en neige avec une pincée de sel.",
+          "Incorporer délicatement les blancs au mélange chocolaté.",
+          "Répartir dans des ramequins et réfrigérer au moins 3 heures avant de servir."
+        ],
+        "categorie": "Dessert"
+      },
+
+
+      {
+        "id": 11,
+        "nom": "Soupe au Pistou",
+        "description": "Une soupe provençale aux légumes et au basilic",
+        "temps_preparation": 30,
+        "temps_cuisson": 60,
+        "difficulte": "Moyenne",
+        "personnes": 6,
+        "ingredients": [
+          "200g de haricots blancs secs",
+          "200g de haricots verts",
+          "2 courgettes",
+          "2 carottes",
+          "2 pommes de terre",
+          "1 oignon",
+          "2 tomates",
+          "100g de pâtes (coquillettes)",
+          "1 bouquet de basilic",
+          "3 gousses d'ail",
+          "50g de parmesan râpé",
+          "Huile d'olive",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Faire tremper les haricots blancs la veille.",
+          "Cuire les haricots blancs dans de l'eau bouillante pendant 1 heure.",
+          "Pendant ce temps, préparer tous les légumes : éplucher et couper en dés.",
+          "Ajouter les légumes aux haricots blancs et cuire 30 minutes.",
+          "Ajouter les pâtes et cuire 10 minutes de plus.",
+          "Préparer le pistou : mixer le basilic, l'ail et le parmesan avec de l'huile d'olive.",
+          "Servir la soupe chaude avec une cuillère de pistou."
+        ],
+        "categorie": "Entrée"
+      },
+      {
+        "id": 12,
+        "nom": "Blanquette de Veau",
+        "description": "Un plat mijoté de veau à la crème",
+        "temps_preparation": 30,
+        "temps_cuisson": 120,
+        "difficulte": "Moyenne",
+        "personnes": 6,
+        "ingredients": [
+          "1kg de veau pour blanquette",
+          "2 carottes",
+          "1 oignon",
+          "1 bouquet garni",
+          "200g de champignons de Paris",
+          "50g de beurre",
+          "50g de farine",
+          "2 jaunes d'œufs",
+          "20cl de crème fraîche",
+          "1 citron",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Faire revenir la viande dans une cocotte avec un peu d'huile.",
+          "Couvrir d'eau, ajouter les carottes, l'oignon et le bouquet garni. Cuire 1h30.",
+          "Préparer un roux : faire fondre le beurre, ajouter la farine et cuire 2 minutes.",
+          "Ajouter le roux à la viande, remuer et laisser épaissir.",
+          "Ajouter les champignons et cuire 10 minutes de plus.",
+          "Hors du feu, ajouter les jaunes d'œufs battus avec la crème et le jus de citron.",
+          "Réchauffer sans bouillir et servir."
+        ],
+        "categorie": "Plat principal"
+      },
+      {
+        "id": 13,
+        "nom": "Tarte au Citron Meringuée",
+        "description": "Un dessert acidulé et gourmand",
+        "temps_preparation": 30,
+        "temps_cuisson": 30,
+        "difficulte": "Moyenne",
+        "personnes": 8,
+        "ingredients": [
+          "1 pâte sablée",
+          "4 citrons",
+          "150g de sucre",
+          "3 œufs",
+          "1 cuillère à soupe de maïzena",
+          "50g de beurre",
+          "4 blancs d'œufs",
+          "200g de sucre glace"
+        ],
+        "etapes": [
+          "Précuire la pâte sablée à blanc pendant 15 minutes à 180°C.",
+          "Préparer la crème au citron : mélanger le jus des citrons, le sucre, les œufs et la maïzena.",
+          "Cuire à feu doux jusqu'à épaississement, ajouter le beurre.",
+          "Verser la crème sur le fond de tarte et laisser refroidir.",
+          "Monter les blancs en neige et incorporer le sucre glace.",
+          "Recouvrir la tarte de meringue et faire dorer au four."
+        ],
+        "categorie": "Dessert"
+      },
+      {
+        "id": 14,
+        "nom": "Salade de Chèvre Chaud",
+        "description": "Une salade gourmande avec du fromage de chèvre grillé",
+        "temps_preparation": 15,
+        "temps_cuisson": 5,
+        "difficulte": "Facile",
+        "personnes": 4,
+        "ingredients": [
+          "200g de salade mélangée",
+          "4 tranches de pain de campagne",
+          "4 crottins de chèvre",
+          "50g de noix",
+          "2 cuillères à soupe de miel",
+          "3 cuillères à soupe d'huile d'olive",
+          "1 cuillère à soupe de vinaigre balsamique",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Laver et essorer la salade.",
+          "Toaster légèrement les tranches de pain.",
+          "Disposer un crottin sur chaque tranche de pain.",
+          "Passer sous le gril du four jusqu'à ce que le fromage soit doré.",
+          "Préparer la vinaigrette en mélangeant l'huile, le vinaigre, le sel et le poivre.",
+          "Disposer la salade dans les assiettes, ajouter les toasts de chèvre.",
+          "Parsemer de noix, arroser de miel et de vinaigrette."
+        ],
+        "categorie": "Entrée"
+      },
+      {
+        "id": 15,
+        "nom": "Gratin Dauphinois",
+        "description": "Un gratin de pommes de terre à la crème",
+        "temps_preparation": 20,
+        "temps_cuisson": 60,
+        "difficulte": "Facile",
+        "personnes": 6,
+        "ingredients": [
+          "1kg de pommes de terre",
+          "50cl de crème fraîche",
+          "25cl de lait",
+          "2 gousses d'ail",
+          "Noix de muscade",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Préchauffer le four à 180°C.",
+          "Éplucher et couper les pommes de terre en fines rondelles.",
+          "Frotter un plat à gratin avec une gousse d'ail.",
+          "Disposer les pommes de terre en couches dans le plat.",
+          "Mélanger la crème, le lait, l'ail écrasé, la muscade, le sel et le poivre.",
+          "Verser ce mélange sur les pommes de terre.",
+          "Enfourner pour 1 heure jusqu'à ce que le dessus soit doré."
+        ],
+        "categorie": "Accompagnement"
+      },
+      {
+        "id": 16,
+        "nom": "Bouillabaisse",
+        "description": "Une soupe de poissons traditionnelle de Marseille",
+        "temps_preparation": 45,
+        "temps_cuisson": 60,
+        "difficulte": "Difficile",
+        "personnes": 6,
+        "ingredients": [
+          "1kg de poissons variés (rascasse, vive, grondin, lotte)",
+          "500g de moules",
+          "1 oignon",
+          "2 tomates",
+          "2 gousses d'ail",
+          "1 fenouil",
+          "1 branche de céleri",
+          "1 poireau",
+          "Safran",
+          "Huile d'olive",
+          "1 bouquet garni",
+          "Sel",
+          "Poivre"
+        ],
+        "etapes": [
+          "Préparer un fumet avec les arêtes et têtes de poissons.",
+          "Faire revenir l'oignon, l'ail et le fenouil dans l'huile d'olive.",
+          "Ajouter les tomates, le céleri et le poireau, puis le fumet.",
+          "Ajouter le safran et le bouquet garni, laisser mijoter 30 minutes.",
+          "Ajouter les poissons coupés en morceaux et les moules.",
+          "Cuire 10-15 minutes jusqu'à ce que les poissons soient cuits.",
+          "Servir chaud avec des croûtons frottés à l'ail et de la rouille."
+        ],
+        "categorie": "Plat principal"
+      },
+      {
+        "id": 17,
+        "nom": "Gougères",
+        "description": "Des choux au fromage, spécialité bourguignonne",
+        "temps_preparation": 20,
+        "temps_cuisson": 25,
+        "difficulte": "Moyenne",
+        "personnes": 6,
+        "ingredients": [
+          "25cl d'eau",
+          "80g de beurre",
+          "150g de farine",
+          "4 œufs",
+          "150g de gruyère râpé",
+          "Sel",
+          "Poivre",
+          "Noix de muscade"
+        ],
+        "etapes": [
+          "Préchauffer le four à 180°C.",
+          "Dans une casserole, faire bouillir l'eau avec le beurre et le sel.",
+          "Hors du feu, ajouter la farine d'un coup et mélanger vigoureusement.",
+          "Remettre sur le feu et dessécher la pâte pendant 1 minute.",
+          "Hors du feu, incorporer les œufs un à un en mélangeant bien.",
+          "Ajouter le fromage râpé, le poivre et la muscade.",
+          "Former des petites boules sur une plaque de cuisson.",
+          "Enfourner pour 25 minutes jusqu'à ce qu'elles soient dorées et gonflées."
+        ],
+        "categorie": "Apéritif"
+      },
+      {
+        "id": 18,
+        "nom": "Pot-au-feu",
+        "description": "Un plat traditionnel français à base de viande de bœuf et de légumes",
+        "temps_preparation": 30,
+        "temps_cuisson": 180,
+        "difficulte": "Moyenne",
+        "personnes": 6,
+        "ingredients": [
+          "1,5kg de viande de bœuf (paleron, gîte, plat de côtes)",
+          "4 carottes",
+          "4 navets",
+          "1 branche de céleri",
+          "2 poireaux",
+          "1 oignon piqué de 2 clous de girofle",
+          "1 bouquet garni",
+          "Gros sel",
+          "Poivre en grains"
+        ],
+        "etapes": [
+          "Mettre la viande dans une grande marmite d'eau froide avec du gros sel.",
+          "Porter à ébullition et écumer soigneusement.",
+          "Ajouter les légumes, l'oignon piqué et le bouquet garni.",
+          "Laisser mijoter à feu doux pendant 3 heures.",
+          "Retirer la viande et les légumes, filtrer le bouillon.",
+          "Servir la viande et les légumes avec le bouillon à part."
+        ],
+        "categorie": "Plat principal"
+      },
+      {
+        "id": 19,
+        "nom": "Tarte Flambée (Flammekueche)",
+        "description": "Une spécialité alsacienne à base de pâte fine garnie de crème, oignons et lardons",
+        "temps_preparation": 20,
+        "temps_cuisson": 15,
+        "difficulte": "Facile",
+        "personnes": 4,
+        "ingredients": [
+          "1 pâte à pizza fine",
+          "200g de crème fraîche épaisse",
+          "200g de lardons fumés",
+          "2 gros oignons",
+          "Sel",
+          "Poivre",
+          "Noix de muscade"
+        ],
+        "etapes": [
+          "Préchauffer le four à 250°C.",
+          "Étaler la pâte très finement sur une plaque.",
+          "Mélanger la crème avec du sel, du poivre et de la muscade.",
+          "Étaler la crème sur la pâte.",
+          "Répartir les lardons et les oignons émincés.",
+          "Enfourner pour 10-15 minutes jusqu'à ce que les bords soient dorés."
+        ],
+        "categorie": "Plat principal"
+      },
+
+          {
+            "id": 21,
+            "nom": "Pissaladière",
+            "description": "Une tarte salée niçoise aux oignons, anchois et olives",
+            "temps_preparation": 30,
+            "temps_cuisson": 30,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "1 pâte brisée",
+              "1kg d'oignons",
+              "2 cuillères à soupe d'huile d'olive",
+              "1 boîte d'anchois à l'huile",
+              "100g d'olives noires",
+              "2 cuillères à soupe d'herbes de Provence",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Émincer finement les oignons et les faire confire dans l'huile d'olive.",
+              "Étaler la pâte dans un moule à tarte.",
+              "Répartir les oignons confits sur la pâte.",
+              "Disposer les anchois en croisillons et les olives entre eux.",
+              "Saupoudrer d'herbes de Provence.",
+              "Enfourner à 180°C pendant 30 minutes jusqu'à ce que la pâte soit dorée."
+            ],
+            "categorie": "Entrée"
+          },
+          {
+            "id": 22,
+            "nom": "Croque-Monsieur",
+            "description": "Un sandwich chaud gratiné au jambon et au fromage",
+            "temps_preparation": 10,
+            "temps_cuisson": 10,
+            "difficulte": "Facile",
+            "personnes": 4,
+            "ingredients": [
+              "8 tranches de pain de mie",
+              "4 tranches de jambon",
+              "200g de gruyère râpé",
+              "50g de beurre",
+              "2 cuillères à soupe de farine",
+              "25cl de lait",
+              "Sel",
+              "Poivre",
+              "Noix de muscade"
+            ],
+            "etapes": [
+              "Préparer une béchamel : faire fondre le beurre, ajouter la farine, puis le lait chaud.",
+              "Assaisonner la béchamel avec sel, poivre et muscade.",
+              "Beurrer les tranches de pain, les garnir de jambon et de fromage râpé.",
+              "Refermer les sandwichs et les recouvrir de béchamel et de fromage râpé.",
+              "Faire gratiner sous le gril du four pendant 10 minutes."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 23,
+            "nom": "Tarte Tatin",
+            "description": "Une tarte aux pommes caramélisées et renversée",
+            "temps_preparation": 30,
+            "temps_cuisson": 40,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "1 pâte feuilletée",
+              "1kg de pommes Golden",
+              "150g de sucre",
+              "100g de beurre",
+              "1 pincée de cannelle"
+            ],
+            "etapes": [
+              "Peler et couper les pommes en quartiers.",
+              "Dans un moule à tarte, faire un caramel avec le sucre et le beurre.",
+              "Disposer les pommes en rosace sur le caramel.",
+              "Saupoudrer de cannelle et cuire à feu doux 15 minutes.",
+              "Recouvrir avec la pâte feuilletée en rentrant les bords.",
+              "Cuire au four à 180°C pendant 25 minutes.",
+              "Laisser tiédir avant de retourner la tarte sur un plat."
+            ],
+            "categorie": "Dessert"
+          },
+          {
+            "id": 24,
+            "nom": "Choucroute Garnie",
+            "description": "Un plat alsacien à base de chou fermenté et de viandes",
+            "temps_preparation": 30,
+            "temps_cuisson": 120,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "1kg de choucroute crue",
+              "500g de lard fumé",
+              "4 saucisses de Strasbourg",
+              "4 saucisses de Montbéliard",
+              "1 oignon",
+              "1 verre de vin blanc sec",
+              "10 baies de genièvre",
+              "2 clous de girofle",
+              "1 feuille de laurier",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Rincer et égoutter la choucroute.",
+              "Faire revenir l'oignon émincé dans une cocotte.",
+              "Ajouter la choucroute, le vin blanc et les épices.",
+              "Disposer les viandes sur la choucroute.",
+              "Couvrir et laisser mijoter à feu doux pendant 2 heures.",
+              "Servir chaud avec des pommes de terre vapeur."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 25,
+            "nom": "Soufflé au Fromage",
+            "description": "Un plat léger et aérien au fromage",
+            "temps_preparation": 20,
+            "temps_cuisson": 30,
+            "difficulte": "Difficile",
+            "personnes": 4,
+            "ingredients": [
+              "50g de beurre",
+              "50g de farine",
+              "30cl de lait",
+              "100g de gruyère râpé",
+              "4 œufs",
+              "Sel",
+              "Poivre",
+              "Noix de muscade"
+            ],
+            "etapes": [
+              "Préchauffer le four à 180°C.",
+              "Préparer une béchamel avec le beurre, la farine et le lait.",
+              "Ajouter le fromage râpé à la béchamel hors du feu.",
+              "Incorporer les jaunes d'œufs un à un.",
+              "Monter les blancs en neige et les incorporer délicatement.",
+              "Verser dans un moule à soufflé beurré.",
+              "Cuire au four pendant 30 minutes sans ouvrir la porte."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 26,
+            "nom": "Aïoli",
+            "description": "Une sauce à l'ail provençale servie avec des légumes et du poisson",
+            "temps_preparation": 20,
+            "temps_cuisson": 30,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "4 gousses d'ail",
+              "2 jaunes d'œufs",
+              "25cl d'huile d'olive",
+              "Le jus d'un demi-citron",
+              "Sel",
+              "Légumes variés (carottes, haricots verts, chou-fleur)",
+              "Poisson blanc cuit (morue ou cabillaud)"
+            ],
+            "etapes": [
+              "Piler l'ail avec une pincée de sel.",
+              "Ajouter les jaunes d'œufs et monter la sauce en ajoutant l'huile petit à petit.",
+              "Ajouter le jus de citron et assaisonner.",
+              "Faire cuire les légumes à la vapeur.",
+              "Servir la sauce aïoli avec les légumes et le poisson."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 27,
+            "nom": "Profiteroles",
+            "description": "Des choux fourrés à la crème et nappés de chocolat",
+            "temps_preparation": 40,
+            "temps_cuisson": 30,
+            "difficulte": "Difficile",
+            "personnes": 6,
+            "ingredients": [
+              "Pour la pâte à choux: 25cl d'eau, 100g de beurre, 150g de farine, 4 œufs",
+              "Pour la crème pâtissière: 50cl de lait, 4 jaunes d'œufs, 100g de sucre, 40g de farine",
+              "Pour le chocolat: 200g de chocolat noir, 20cl de crème liquide"
+            ],
+            "etapes": [
+              "Préparer la pâte à choux: faire bouillir l'eau et le beurre, ajouter la farine d'un coup.",
+              "Dessécher la pâte puis incorporer les œufs un à un.",
+              "Former des petits choux et les cuire au four à 180°C pendant 25 minutes.",
+              "Préparer la crème pâtissière: faire bouillir le lait, mélanger les jaunes, le sucre et la farine.",
+              "Verser le lait chaud sur le mélange, remettre sur le feu jusqu'à épaississement.",
+              "Garnir les choux de crème pâtissière.",
+              "Faire fondre le chocolat avec la crème et napper les choux."
+            ],
+            "categorie": "Dessert"
+          },
+          {
+            "id": 28,
+            "nom": "Cassoulet",
+            "description": "Un plat mijoté du Sud-Ouest à base de haricots blancs et de viandes",
+            "temps_preparation": 30,
+            "temps_cuisson": 180,
+            "difficulte": "Difficile",
+            "personnes": 8,
+            "ingredients": [
+              "1kg de haricots blancs secs",
+              "500g de poitrine de porc",
+              "4 cuisses de canard confites",
+              "400g de saucisse de Toulouse",
+              "2 oignons",
+              "2 carottes",
+              "3 gousses d'ail",
+              "1 bouquet garni",
+              "2 boîtes de tomates concassées",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Faire tremper les haricots la veille.",
+              "Cuire les haricots avec un oignon piqué et le bouquet garni.",
+              "Dans une cocotte, faire revenir les viandes.",
+              "Ajouter les légumes, l'ail et les tomates.",
+              "Ajouter les haricots et couvrir d'eau si nécessaire.",
+              "Laisser mijoter à feu doux pendant 3 heures.",
+              "Servir bien chaud."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 29,
+            "nom": "Tapenade",
+            "description": "Une pâte d'olives noires provençale",
+            "temps_preparation": 15,
+            "temps_cuisson": 0,
+            "difficulte": "Facile",
+            "personnes": 6,
+            "ingredients": [
+              "250g d'olives noires dénoyautées",
+              "50g de câpres",
+              "2 filets d'anchois",
+              "1 gousse d'ail",
+              "Le jus d'un demi-citron",
+              "5cl d'huile d'olive"
+            ],
+            "etapes": [
+              "Mixer tous les ingrédients sauf l'huile d'olive.",
+              "Ajouter l'huile d'olive petit à petit en mixant.",
+              "Ajuster l'assaisonnement si nécessaire.",
+              "Servir frais sur des toasts ou des bâtonnets de légumes."
+            ],
+            "categorie": "Apéritif"
+          },
+          {
+            "id": 30,
+            "nom": "Paris-Brest",
+            "description": "Une pâtisserie en forme de roue de vélo garnie de crème pralinée",
+            "temps_preparation": 45,
+            "temps_cuisson": 35,
+            "difficulte": "Difficile",
+            "personnes": 8,
+            "ingredients": [
+              "Pour la pâte à choux: 25cl d'eau, 100g de beurre, 150g de farine, 4 œufs",
+              "Pour la crème pralinée: 50cl de lait, 4 jaunes d'œufs, 100g de sucre, 40g de farine, 100g de praliné",
+              "Amandes effilées",
+              "Sucre glace"
+            ],
+            "etapes": [
+              "Préparer la pâte à choux et former un grand anneau sur une plaque.",
+              "Parsemer d'amandes effilées et cuire à 180°C pendant 35 minutes.",
+              "Préparer la crème pâtissière et y incorporer le praliné une fois refroidie.",
+              "Couper le cercle de pâte en deux dans l'épaisseur.",
+              "Garnir de crème pralinée et refermer.",
+              "Saupoudrer de sucre glace avant de servir."
+            ],
+            "categorie": "Dessert"
+          },
+
+          {
+            "id": 31,
+            "nom": "Sushi California Roll",
+            "description": "Un classique de la cuisine japonaise fusion",
+            "temps_preparation": 30,
+            "temps_cuisson": 20,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "300g de riz à sushi",
+              "4 feuilles d'algue nori",
+              "1 avocat",
+              "100g de chair de crabe (ou surimi)",
+              "1 concombre",
+              "Graines de sésame",
+              "Vinaigre de riz",
+              "Sucre",
+              "Sel"
+            ],
+            "etapes": [
+              "Cuire le riz selon les instructions, puis l'assaisonner avec un mélange de vinaigre, sucre et sel.",
+              "Couper l'avocat et le concombre en bâtonnets.",
+              "Placer une feuille de nori sur une natte de bambou, la recouvrir de riz.",
+              "Retourner et garnir de crabe, avocat et concombre.",
+              "Rouler fermement et couper en 6-8 morceaux.",
+              "Saupoudrer de graines de sésame."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 32,
+            "nom": "Curry de poulet indien",
+            "description": "Un plat épicé et savoureux de la cuisine indienne",
+            "temps_preparation": 20,
+            "temps_cuisson": 40,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "600g de blanc de poulet",
+              "2 oignons",
+              "3 gousses d'ail",
+              "2cm de gingembre frais",
+              "400ml de lait de coco",
+              "2 cuillères à soupe de pâte de curry",
+              "1 boîte de tomates concassées",
+              "Huile végétale",
+              "Sel",
+              "Coriandre fraîche"
+            ],
+            "etapes": [
+              "Couper le poulet en morceaux. Émincer les oignons, l'ail et le gingembre.",
+              "Faire revenir les oignons dans l'huile, ajouter l'ail et le gingembre.",
+              "Ajouter la pâte de curry et faire revenir 2 minutes.",
+              "Ajouter le poulet et faire dorer.",
+              "Verser les tomates et le lait de coco. Laisser mijoter 30 minutes.",
+              "Saler et garnir de coriandre fraîche avant de servir."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 33,
+            "nom": "Guacamole mexicain",
+            "description": "Une sauce avocat typique de la cuisine mexicaine",
+            "temps_preparation": 15,
+            "temps_cuisson": 0,
+            "difficulte": "Facile",
+            "personnes": 4,
+            "ingredients": [
+              "3 avocats mûrs",
+              "1 tomate",
+              "1 oignon rouge",
+              "1 citron vert",
+              "1 piment jalapeño (facultatif)",
+              "Coriandre fraîche",
+              "Sel"
+            ],
+            "etapes": [
+              "Écraser la chair des avocats à la fourchette.",
+              "Couper la tomate et l'oignon en petits dés.",
+              "Hacher finement le piment et la coriandre.",
+              "Mélanger tous les ingrédients.",
+              "Ajouter le jus de citron vert et le sel.",
+              "Bien mélanger et servir frais avec des nachos."
+            ],
+            "categorie": "Apéritif"
+          },
+          {
+            "id": 34,
+            "nom": "Pad Thai au tofu",
+            "description": "Un plat de nouilles sautées typique de la cuisine thaïlandaise",
+            "temps_preparation": 20,
+            "temps_cuisson": 15,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "200g de nouilles de riz",
+              "200g de tofu ferme",
+              "2 œufs",
+              "100g de pousses de soja",
+              "2 carottes",
+              "3 oignons nouveaux",
+              "50g de cacahuètes concassées",
+              "2 cuillères à soupe de sauce de poisson",
+              "2 cuillères à soupe de sauce de soja",
+              "1 cuillère à soupe de sucre de palme",
+              "1 citron vert",
+              "Huile végétale"
+            ],
+            "etapes": [
+              "Faire tremper les nouilles dans l'eau chaude selon les instructions.",
+              "Couper le tofu en cubes et le faire dorer dans une poêle.",
+              "Dans un wok, faire sauter les carottes et les oignons.",
+              "Ajouter les nouilles égouttées, le tofu, les sauces et le sucre.",
+              "Faire un puits au centre, y casser les œufs et les brouiller.",
+              "Ajouter les pousses de soja et mélanger.",
+              "Servir garni de cacahuètes et de quartiers de citron vert."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 35,
+            "nom": "Taboulé libanais",
+            "description": "Une salade fraîche et légère typique du Liban",
+            "temps_preparation": 20,
+            "temps_cuisson": 0,
+            "difficulte": "Facile",
+            "personnes": 6,
+            "ingredients": [
+              "200g de boulgour fin",
+              "4 tomates",
+              "1 concombre",
+              "1 gros bouquet de persil plat",
+              "1 petit bouquet de menthe",
+              "Le jus de 2 citrons",
+              "4 cuillères à soupe d'huile d'olive",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Rincer le boulgour et le laisser gonfler dans un peu d'eau froide.",
+              "Couper les tomates et le concombre en petits dés.",
+              "Hacher finement le persil et la menthe.",
+              "Mélanger tous les ingrédients dans un saladier.",
+              "Assaisonner avec le jus de citron, l'huile d'olive, le sel et le poivre.",
+              "Laisser reposer au frais au moins 1 heure avant de servir."
+            ],
+            "categorie": "Entrée"
+          },
+
+          {
+            "id": 36,
+            "nom": "Falafel",
+            "description": "Boulettes de pois chiches frites, spécialité du Moyen-Orient",
+            "temps_preparation": 30,
+            "temps_cuisson": 15,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "300g de pois chiches secs",
+              "1 oignon",
+              "3 gousses d'ail",
+              "1 bouquet de persil",
+              "1 cuillère à café de cumin moulu",
+              "1 cuillère à café de coriandre moulue",
+              "1 cuillère à café de levure chimique",
+              "Sel",
+              "Poivre",
+              "Huile pour friture"
+            ],
+            "etapes": [
+              "Faire tremper les pois chiches toute une nuit.",
+              "Mixer les pois chiches avec l'oignon, l'ail et les épices.",
+              "Ajouter le persil haché et la levure, bien mélanger.",
+              "Former des petites boules avec la préparation.",
+              "Faire frire les falafels dans l'huile chaude jusqu'à ce qu'ils soient dorés.",
+              "Égoutter sur du papier absorbant et servir chaud."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 37,
+            "nom": "Sushi maki au saumon",
+            "description": "Rouleau de sushi japonais au saumon",
+            "temps_preparation": 30,
+            "temps_cuisson": 20,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "300g de riz à sushi",
+              "4 feuilles d'algue nori",
+              "200g de saumon frais",
+              "1 concombre",
+              "Vinaigre de riz",
+              "Sucre",
+              "Sel",
+              "Sauce soja pour servir"
+            ],
+            "etapes": [
+              "Cuire le riz et l'assaisonner avec un mélange de vinaigre, sucre et sel.",
+              "Couper le saumon et le concombre en bandes fines.",
+              "Étaler le riz sur une feuille de nori, en laissant un bord libre.",
+              "Placer une bande de saumon et de concombre au centre.",
+              "Rouler fermement et humidifier le bord pour sceller.",
+              "Couper chaque rouleau en 6-8 morceaux et servir avec de la sauce soja."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 38,
+            "nom": "Moussaka grecque végétarienne",
+            "description": "Version végétarienne du plat traditionnel grec",
+            "temps_preparation": 45,
+            "temps_cuisson": 60,
+            "difficulte": "Difficile",
+            "personnes": 6,
+            "ingredients": [
+              "3 aubergines",
+              "2 pommes de terre",
+              "1 oignon",
+              "2 gousses d'ail",
+              "400g de lentilles cuites",
+              "400g de tomates concassées",
+              "50g de fromage feta",
+              "2 cuillères à soupe de concentré de tomate",
+              "1 cuillère à café d'origan séché",
+              "Pour la béchamel : 50g de beurre, 50g de farine, 500ml de lait",
+              "Huile d'olive",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Couper les aubergines et les pommes de terre en tranches, les faire griller au four.",
+              "Faire revenir l'oignon et l'ail, ajouter les lentilles, les tomates et les épices.",
+              "Dans un plat, alterner des couches d'aubergines, de pommes de terre et de mélange de lentilles.",
+              "Préparer la béchamel et la verser sur le dessus.",
+              "Émietter la feta sur la béchamel.",
+              "Cuire au four à 180°C pendant environ 45 minutes."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 39,
+            "nom": "Ceviche péruvien",
+            "description": "Plat de poisson cru mariné typique du Pérou",
+            "temps_preparation": 20,
+            "temps_cuisson": 0,
+            "difficulte": "Facile",
+            "personnes": 4,
+            "ingredients": [
+              "500g de poisson blanc frais (bar, dorade ou cabillaud)",
+              "4 citrons verts",
+              "1 oignon rouge",
+              "1 piment rouge frais",
+              "1 patate douce",
+              "1 épi de maïs",
+              "Coriandre fraîche",
+              "Sel"
+            ],
+            "etapes": [
+              "Couper le poisson en cubes de 2cm.",
+              "Mélanger le poisson avec le jus des citrons verts et laisser mariner 15 minutes.",
+              "Émincer finement l'oignon et le piment.",
+              "Cuire la patate douce et le maïs, les couper en morceaux.",
+              "Mélanger le poisson mariné avec l'oignon et le piment.",
+              "Ajouter la coriandre ciselée et le sel.",
+              "Servir accompagné de morceaux de patate douce et de maïs."
+            ],
+            "categorie": "Entrée"
+          },
+          {
+            "id": 40,
+            "nom": "Butter Chicken",
+            "description": "Plat indien de poulet dans une sauce crémeuse aux épices",
+            "temps_preparation": 30,
+            "temps_cuisson": 40,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "600g de blanc de poulet",
+              "200g de yaourt nature",
+              "1 oignon",
+              "2 gousses d'ail",
+              "2cm de gingembre frais",
+              "400g de tomates concassées",
+              "200ml de crème fraîche",
+              "50g de beurre",
+              "1 cuillère à soupe de garam masala",
+              "1 cuillère à café de curcuma",
+              "1 cuillère à café de piment doux",
+              "Sel"
+            ],
+            "etapes": [
+              "Mariner le poulet coupé en morceaux dans le yaourt et la moitié des épices pendant 2 heures.",
+              "Faire revenir l'oignon, l'ail et le gingembre dans le beurre.",
+              "Ajouter le reste des épices et les tomates, laisser mijoter 10 minutes.",
+              "Ajouter le poulet mariné et cuire 20 minutes.",
+              "Incorporer la crème fraîche et laisser mijoter 10 minutes de plus.",
+              "Servir chaud avec du riz basmati."
+            ],
+            "categorie": "Plat principal"
+          },
+
+          {
+            "id": 41,
+            "nom": "Shakshuka",
+            "description": "Plat d'œufs pochés dans une sauce tomate épicée, originaire du Moyen-Orient",
+            "temps_preparation": 15,
+            "temps_cuisson": 25,
+            "difficulte": "Facile",
+            "personnes": 4,
+            "ingredients": [
+              "6 œufs",
+              "400g de tomates concassées",
+              "1 poivron rouge",
+              "1 oignon",
+              "2 gousses d'ail",
+              "1 cuillère à café de cumin",
+              "1 cuillère à café de paprika",
+              "Pincée de piment en poudre",
+              "Persil frais",
+              "Huile d'olive",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Faire revenir l'oignon et le poivron émincés dans l'huile d'olive.",
+              "Ajouter l'ail écrasé et les épices, cuire 1 minute.",
+              "Verser les tomates concassées, laisser mijoter 10 minutes.",
+              "Faire 6 creux dans la sauce et y casser les œufs.",
+              "Couvrir et laisser cuire jusqu'à ce que les blancs soient pris.",
+              "Parsemer de persil haché et servir avec du pain."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 42,
+            "nom": "Pho vietnamien au bœuf",
+            "description": "Soupe de nouilles de riz au bœuf et aux herbes fraîches",
+            "temps_preparation": 30,
+            "temps_cuisson": 180,
+            "difficulte": "Difficile",
+            "personnes": 6,
+            "ingredients": [
+              "200g de nouilles de riz",
+              "500g de bœuf (filet et paleron)",
+              "2L de bouillon de bœuf",
+              "1 oignon",
+              "2cm de gingembre",
+              "2 bâtons de cannelle",
+              "2 étoiles de badiane",
+              "4 gousses de cardamome",
+              "Sauce de poisson",
+              "Germes de soja",
+              "Basilic thaï",
+              "Coriandre",
+              "Menthe",
+              "Citron vert"
+            ],
+            "etapes": [
+              "Préparer le bouillon avec les épices, l'oignon et le gingembre, laisser mijoter 2-3 heures.",
+              "Couper le bœuf en fines tranches.",
+              "Cuire les nouilles selon les instructions du paquet.",
+              "Filtrer le bouillon et y faire cuire les tranches de bœuf rapidement.",
+              "Servir les nouilles dans des bols, ajouter le bœuf et le bouillon chaud.",
+              "Garnir de germes de soja, herbes fraîches et quartiers de citron vert."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 43,
+            "nom": "Tzatziki grec",
+            "description": "Sauce fraîche au yaourt et au concombre",
+            "temps_preparation": 15,
+            "temps_cuisson": 0,
+            "difficulte": "Facile",
+            "personnes": 6,
+            "ingredients": [
+              "500g de yaourt grec",
+              "1 concombre",
+              "2 gousses d'ail",
+              "2 cuillères à soupe d'huile d'olive",
+              "1 cuillère à soupe de vinaigre blanc",
+              "Aneth frais",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Râper le concombre et le faire dégorger avec du sel.",
+              "Mélanger le yaourt avec l'ail écrasé, l'huile d'olive et le vinaigre.",
+              "Égoutter le concombre et l'ajouter au mélange.",
+              "Ajouter l'aneth ciselé, saler et poivrer.",
+              "Réfrigérer au moins 1 heure avant de servir."
+            ],
+            "categorie": "Accompagnement"
+          },
+          {
+            "id": 44,
+            "nom": "Mafe sénégalais",
+            "description": "Ragoût de bœuf à la sauce d'arachide",
+            "temps_preparation": 20,
+            "temps_cuisson": 90,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "800g de bœuf à braiser",
+              "200g de beurre de cacahuète",
+              "400g de tomates concassées",
+              "2 oignons",
+              "2 carottes",
+              "2 patates douces",
+              "1 aubergine",
+              "2 gousses d'ail",
+              "1 piment",
+              "1L de bouillon de bœuf",
+              "Huile végétale",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Faire revenir la viande dans l'huile jusqu'à ce qu'elle soit dorée.",
+              "Ajouter les oignons émincés et l'ail écrasé.",
+              "Verser les tomates et le bouillon, laisser mijoter 1 heure.",
+              "Ajouter le beurre de cacahuète et mélanger.",
+              "Ajouter les légumes coupés en morceaux et le piment.",
+              "Cuire encore 30 minutes jusqu'à ce que les légumes soient tendres.",
+              "Servir avec du riz blanc."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 45,
+            "nom": "Tiramisu italien",
+            "description": "Dessert italien à base de mascarpone et de café",
+            "temps_preparation": 30,
+            "temps_cuisson": 0,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "500g de mascarpone",
+              "4 œufs",
+              "100g de sucre",
+              "200ml de café fort refroidi",
+              "30 biscuits à la cuillère",
+              "Cacao en poudre"
+            ],
+            "etapes": [
+              "Séparer les blancs des jaunes d'œufs.",
+              "Battre les jaunes avec le sucre jusqu'à blanchiment, ajouter le mascarpone.",
+              "Monter les blancs en neige et les incorporer délicatement à la crème.",
+              "Tremper rapidement les biscuits dans le café.",
+              "Dans un plat, alterner couches de biscuits et de crème.",
+              "Terminer par une couche de crème et saupoudrer de cacao.",
+              "Réfrigérer au moins 4 heures avant de servir."
+            ],
+            "categorie": "Dessert"
+          },
+
+          {
+            "id": 46,
+            "nom": "Bobotie sud-africain",
+            "description": "Plat traditionnel sud-africain à base de viande hachée et d'œufs",
+            "temps_preparation": 30,
+            "temps_cuisson": 60,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "500g de bœuf haché",
+              "2 tranches de pain de mie",
+              "250ml de lait",
+              "2 oignons",
+              "2 gousses d'ail",
+              "2 œufs",
+              "50g de raisins secs",
+              "2 cuillères à soupe de chutney",
+              "2 cuillères à café de curry en poudre",
+              "1 cuillère à café de curcuma",
+              "2 feuilles de laurier",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Faire tremper le pain dans le lait.",
+              "Faire revenir les oignons et l'ail, ajouter la viande et les épices.",
+              "Incorporer le pain égoutté, les raisins et le chutney à la viande.",
+              "Verser le mélange dans un plat à gratin.",
+              "Battre les œufs avec le reste du lait et verser sur la préparation.",
+              "Ajouter les feuilles de laurier et enfourner à 180°C pour 45 minutes."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 47,
+            "nom": "Ceviche de crevettes équatorien",
+            "description": "Plat frais de fruits de mer marinés, populaire en Équateur",
+            "temps_preparation": 20,
+            "temps_cuisson": 5,
+            "difficulte": "Facile",
+            "personnes": 4,
+            "ingredients": [
+              "500g de crevettes cuites et décortiquées",
+              "4 tomates",
+              "1 oignon rouge",
+              "1 poivron vert",
+              "Le jus de 4 citrons verts",
+              "1 cuillère à soupe de sauce tomate",
+              "1 cuillère à soupe d'huile d'olive",
+              "Coriandre fraîche",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Couper les tomates, l'oignon et le poivron en petits dés.",
+              "Mélanger avec les crevettes dans un saladier.",
+              "Ajouter le jus de citron, la sauce tomate et l'huile d'olive.",
+              "Assaisonner avec le sel et le poivre.",
+              "Ajouter la coriandre ciselée et bien mélanger.",
+              "Réfrigérer au moins 2 heures avant de servir."
+            ],
+            "categorie": "Entrée"
+          },
+          {
+            "id": 48,
+            "nom": "Borscht ukrainien",
+            "description": "Soupe traditionnelle ukrainienne à la betterave",
+            "temps_preparation": 30,
+            "temps_cuisson": 90,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "500g de bœuf à braiser",
+              "3 betteraves",
+              "2 carottes",
+              "2 pommes de terre",
+              "1 oignon",
+              "1/4 de chou blanc",
+              "2 gousses d'ail",
+              "2 cuillères à soupe de concentré de tomate",
+              "2L de bouillon de bœuf",
+              "2 cuillères à soupe de vinaigre",
+              "Aneth frais",
+              "Crème fraîche pour servir",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Faire revenir le bœuf coupé en dés, puis ajouter le bouillon et laisser mijoter 1 heure.",
+              "Râper les betteraves et les carottes, émincer l'oignon et le chou.",
+              "Ajouter les légumes et les pommes de terre coupées en dés au bouillon.",
+              "Incorporer le concentré de tomate et l'ail écrasé.",
+              "Laisser mijoter 30 minutes, puis ajouter le vinaigre.",
+              "Servir chaud avec de l'aneth haché et une cuillère de crème fraîche."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 49,
+            "nom": "Hummous libanais",
+            "description": "Purée de pois chiches crémeuse et savoureuse",
+            "temps_preparation": 15,
+            "temps_cuisson": 0,
+            "difficulte": "Facile",
+            "personnes": 6,
+            "ingredients": [
+              "400g de pois chiches en conserve",
+              "2 gousses d'ail",
+              "Le jus d'un citron",
+              "3 cuillères à soupe de tahini (purée de sésame)",
+              "4 cuillères à soupe d'huile d'olive",
+              "1 cuillère à café de cumin moulu",
+              "Sel",
+              "Paprika pour la décoration"
+            ],
+            "etapes": [
+              "Égoutter et rincer les pois chiches.",
+              "Dans un mixeur, mettre les pois chiches, l'ail, le jus de citron et le tahini.",
+              "Mixer en ajoutant progressivement l'huile d'olive jusqu'à obtenir une texture lisse.",
+              "Ajouter le cumin et le sel, mixer à nouveau.",
+              "Servir dans un bol, faire un creux au centre et y verser un filet d'huile d'olive.",
+              "Saupoudrer de paprika avant de servir."
+            ],
+            "categorie": "Apéritif"
+          },
+          {
+            "id": 50,
+            "nom": "Pad Thaï aux crevettes",
+            "description": "Nouilles de riz sautées à la thaïlandaise avec des crevettes",
+            "temps_preparation": 20,
+            "temps_cuisson": 15,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "200g de nouilles de riz",
+              "200g de crevettes décortiquées",
+              "2 œufs",
+              "100g de pousses de soja",
+              "2 ciboules",
+              "50g de cacahuètes concassées",
+              "2 cuillères à soupe de sauce de poisson",
+              "2 cuillères à soupe de sauce de soja",
+              "2 cuillères à soupe de sucre de palme",
+              "1 citron vert",
+              "2 gousses d'ail",
+              "Huile végétale"
+            ],
+            "etapes": [
+              "Faire tremper les nouilles dans l'eau chaude selon les instructions.",
+              "Dans un wok, faire revenir l'ail et les crevettes dans l'huile.",
+              "Ajouter les nouilles égouttées, les sauces et le sucre.",
+              "Pousser le tout sur le côté et faire cuire les œufs brouillés.",
+              "Ajouter les pousses de soja et les ciboules émincées.",
+              "Mélanger le tout et servir avec des cacahuètes et des quartiers de citron vert."
+            ],
+            "categorie": "Plat principal"
+          },
+
+          {
+            "id": 51,
+            "nom": "Dahl de lentilles indien",
+            "description": "Plat végétarien indien à base de lentilles et d'épices",
+            "temps_preparation": 15,
+            "temps_cuisson": 30,
+            "difficulte": "Facile",
+            "personnes": 4,
+            "ingredients": [
+              "250g de lentilles corail",
+              "1 oignon",
+              "2 gousses d'ail",
+              "1 cuillère à café de curcuma",
+              "1 cuillère à café de cumin moulu",
+              "1 cuillère à café de coriandre moulue",
+              "400ml de lait de coco",
+              "400ml d'eau",
+              "2 cuillères à soupe d'huile végétale",
+              "Coriandre fraîche",
+              "Sel"
+            ],
+            "etapes": [
+              "Rincer les lentilles et les égoutter.",
+              "Faire revenir l'oignon émincé et l'ail écrasé dans l'huile.",
+              "Ajouter les épices et cuire 1 minute.",
+              "Verser les lentilles, le lait de coco et l'eau.",
+              "Laisser mijoter 20-25 minutes jusqu'à ce que les lentilles soient tendres.",
+              "Saler et garnir de coriandre fraîche avant de servir."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 52,
+            "nom": "Croquettes de poisson thaïlandaises",
+            "description": "Boulettes de poisson épicées, populaires en Thaïlande",
+            "temps_preparation": 20,
+            "temps_cuisson": 10,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "500g de filet de poisson blanc",
+              "2 cuillères à soupe de pâte de curry rouge",
+              "1 œuf",
+              "2 cuillères à soupe de sauce de poisson",
+              "100g de haricots verts fins, coupés en petits morceaux",
+              "3 feuilles de combava",
+              "Huile pour friture",
+              "Sauce sweet chili pour servir"
+            ],
+            "etapes": [
+              "Mixer le poisson pour obtenir une pâte.",
+              "Mélanger avec la pâte de curry, l'œuf et la sauce de poisson.",
+              "Incorporer les haricots verts et les feuilles de combava ciselées.",
+              "Former des petites boulettes avec la préparation.",
+              "Faire frire dans l'huile chaude jusqu'à ce qu'elles soient dorées.",
+              "Égoutter sur du papier absorbant et servir avec la sauce sweet chili."
+            ],
+            "categorie": "Entrée"
+          },
+          {
+            "id": 53,
+            "nom": "Chili con carne mexicain",
+            "description": "Ragoût épicé de bœuf et de haricots rouges",
+            "temps_preparation": 20,
+            "temps_cuisson": 90,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "500g de bœuf haché",
+              "2 boîtes de haricots rouges",
+              "2 oignons",
+              "2 gousses d'ail",
+              "2 poivrons",
+              "400g de tomates concassées",
+              "2 cuillères à soupe de concentré de tomate",
+              "2 cuillères à café de cumin moulu",
+              "2 cuillères à café de paprika",
+              "1 cuillère à café de piment en poudre",
+              "Huile d'olive",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Faire revenir la viande dans l'huile d'olive.",
+              "Ajouter les oignons, l'ail et les poivrons émincés.",
+              "Incorporer les épices et le concentré de tomate.",
+              "Ajouter les tomates concassées et les haricots rouges égouttés.",
+              "Laisser mijoter à feu doux pendant 1h30, en remuant de temps en temps.",
+              "Assaisonner et servir avec du riz ou des tortillas."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 54,
+            "nom": "Dolma grec",
+            "description": "Feuilles de vigne farcies au riz et aux herbes",
+            "temps_preparation": 45,
+            "temps_cuisson": 60,
+            "difficulte": "Difficile",
+            "personnes": 6,
+            "ingredients": [
+              "50 feuilles de vigne en conserve",
+              "300g de riz à grain rond",
+              "1 oignon",
+              "3 cuillères à soupe de menthe fraîche hachée",
+              "3 cuillères à soupe d'aneth frais haché",
+              "Le jus de 2 citrons",
+              "100ml d'huile d'olive",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Rincer les feuilles de vigne à l'eau froide.",
+              "Faire revenir l'oignon émincé dans l'huile d'olive.",
+              "Mélanger le riz, les herbes, l'oignon et la moitié du jus de citron.",
+              "Déposer une cuillère de farce sur chaque feuille et rouler.",
+              "Disposer les dolmas dans une casserole, couvrir d'eau et d'huile d'olive.",
+              "Cuire à feu doux pendant 1 heure, arroser de jus de citron avant de servir."
+            ],
+            "categorie": "Entrée"
+          },
+          {
+            "id": 55,
+            "nom": "Poulet Tandoori indien",
+            "description": "Poulet mariné aux épices et cuit au four",
+            "temps_preparation": 20,
+            "temps_cuisson": 40,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "4 cuisses de poulet",
+              "200g de yaourt nature",
+              "2 cuillères à soupe de jus de citron",
+              "2 cuillères à café de garam masala",
+              "1 cuillère à café de curcuma",
+              "1 cuillère à café de piment doux",
+              "2 gousses d'ail écrasées",
+              "1 morceau de gingembre râpé",
+              "Sel"
+            ],
+            "etapes": [
+              "Mélanger le yaourt avec les épices, l'ail, le gingembre et le jus de citron.",
+              "Entailler la chair du poulet et le badigeonner de marinade.",
+              "Laisser mariner au réfrigérateur pendant au moins 2 heures.",
+              "Préchauffer le four à 200°C.",
+              "Disposer le poulet sur une grille et cuire 35-40 minutes en le retournant à mi-cuisson.",
+              "Servir avec du riz basmati et une salade de concombre au yaourt."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 56,
+            "nom": "Poke bowl hawaïen au saumon",
+            "description": "Salade de riz et de saumon cru à la mode hawaïenne",
+            "temps_preparation": 20,
+            "temps_cuisson": 15,
+            "difficulte": "Facile",
+            "personnes": 2,
+            "ingredients": [
+              "200g de saumon frais",
+              "200g de riz à sushi",
+              "1 avocat",
+              "100g d'edamame",
+              "1 concombre",
+              "2 cuillères à soupe de sauce soja",
+              "1 cuillère à soupe d'huile de sésame",
+              "Graines de sésame",
+              "Algues nori émincées"
+            ],
+            "etapes": [
+              "Cuire le riz selon les instructions et le laisser refroidir.",
+              "Couper le saumon et l'avocat en dés.",
+              "Éplucher et couper le concombre en rondelles.",
+              "Mélanger la sauce soja et l'huile de sésame.",
+              "Dans des bols, disposer le riz, puis les légumes et le saumon.",
+              "Arroser de sauce et parsemer de graines de sésame et d'algues."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 57,
+            "nom": "Manti turcs",
+            "description": "Petits raviolis turcs farcis à la viande",
+            "temps_preparation": 60,
+            "temps_cuisson": 20,
+            "difficulte": "Difficile",
+            "personnes": 6,
+            "ingredients": [
+              "Pour la pâte: 300g de farine, 1 œuf, eau",
+              "Pour la farce: 250g de bœuf haché, 1 oignon, sel, poivre",
+              "Pour la sauce: 200g de yaourt, 2 gousses d'ail",
+              "Beurre fondu et paprika pour servir"
+            ],
+            "etapes": [
+              "Préparer la pâte et la laisser reposer 30 minutes.",
+              "Mélanger les ingrédients de la farce.",
+              "Étaler la pâte finement et la découper en petits carrés.",
+              "Déposer un peu de farce au centre de chaque carré et former des raviolis.",
+              "Faire bouillir les manti dans de l'eau salée pendant 10-15 minutes.",
+              "Servir avec la sauce au yaourt, le beurre fondu et le paprika."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 58,
+            "nom": "Tabbouleh libanais",
+            "description": "Salade de persil et de boulgour typique du Liban",
+            "temps_preparation": 30,
+            "temps_cuisson": 0,
+            "difficulte": "Facile",
+            "personnes": 4,
+            "ingredients": [
+              "200g de persil plat",
+              "50g de menthe fraîche",
+              "50g de boulgour fin",
+              "2 tomates",
+              "1 oignon rouge",
+              "Le jus de 2 citrons",
+              "4 cuillères à soupe d'huile d'olive",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Faire tremper le boulgour dans de l'eau chaude pendant 30 minutes, puis égoutter.",
+              "Laver et hacher finement le persil et la menthe.",
+              "Couper les tomates et l'oignon en petits dés.",
+              "Mélanger tous les ingrédients dans un saladier.",
+              "Assaisonner avec le jus de citron, l'huile d'olive, le sel et le poivre.",
+              "Laisser reposer au frais au moins 1 heure avant de servir."
+            ],
+            "categorie": "Entrée"
+          },
+          {
+            "id": 59,
+            "nom": "Bœuf Stroganoff russe",
+            "description": "Émincé de bœuf à la crème et aux champignons",
+            "temps_preparation": 20,
+            "temps_cuisson": 30,
+            "difficulte": "Moyenne",
+            "personnes": 4,
+            "ingredients": [
+              "600g de bœuf (filet ou rumsteck)",
+              "1 oignon",
+              "300g de champignons de Paris",
+              "2 cuillères à soupe de farine",
+              "20cl de crème fraîche",
+              "20cl de bouillon de bœuf",
+              "1 cuillère à soupe de moutarde",
+              "1 cuillère à soupe de paprika",
+              "Huile végétale",
+              "Sel",
+              "Poivre"
+            ],
+            "etapes": [
+              "Couper le bœuf en lanières.",
+              "Faire revenir l'oignon émincé et les champignons dans l'huile.",
+              "Retirer les champignons et faire dorer la viande à feu vif.",
+              "Saupoudrer de farine, ajouter le paprika et la moutarde.",
+              "Verser le bouillon et laisser mijoter 10 minutes.",
+              "Ajouter la crème et les champignons, cuire encore 5 minutes.",
+              "Servir avec des tagliatelles ou du riz."
+            ],
+            "categorie": "Plat principal"
+          },
+          {
+            "id": 60,
+            "nom": "Pavlova australienne",
+            "description": "Dessert meringué aux fruits rouges",
+            "temps_preparation": 30,
+            "temps_cuisson": 90,
+            "difficulte": "Moyenne",
+            "personnes": 6,
+            "ingredients": [
+              "4 blancs d'œufs",
+              "200g de sucre",
+              "1 cuillère à café de vinaigre blanc",
+              "1 cuillère à café de maïzena",
+              "250ml de crème fraîche liquide",
+              "500g de fruits rouges mélangés",
+              "Sucre glace pour décorer"
+            ],
+            "etapes": [
+              "Préchauffer le four à 120°C.",
+              "Monter les blancs en neige, ajouter le sucre petit à petit.",
+              "Incorporer le vinaigre et la maïzena.",
+              "Former un disque de meringue sur une plaque recouverte de papier sulfurisé.",
+              "Cuire pendant 1h30, puis laisser refroidir dans le four éteint.",
+              "Fouetter la crème et en recouvrir la meringue.",
+              "Disposer les fruits rouges sur la crème et saupoudrer de sucre glace."
+            ],
+            "categorie": "Dessert"
+          }
+
+         ] 
+       } 
+    
+    
+    
+    
