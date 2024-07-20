@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Recette } from '../type';
 
-const API_URL = 'https://api-recette-26n5.onrender.com/recettes';  // Ajustez l'URL selon votre configuration
+const API_URL = 'https://api-recette-26n5.onrender.com/recettes';
 
 const AjouterRecette: React.FC = () => {
   const [recette, setRecette] = useState<Omit<Recette, 'id'>>({
@@ -15,10 +15,31 @@ const AjouterRecette: React.FC = () => {
     etapes: [],
     categorie: ''
   });
+  const [errors, setErrors] = useState<{ [key: string]: string }>({});
+
+  const validateField = (name: string, value: string): string => {
+    switch (name) {
+      case 'nom':
+        return /^[a-zA-ZÀ-ÿ\s]{3,50}$/.test(value) ? '' : 'Le nom doit contenir entre 3 et 50 caractères alphabétiques.';
+      case 'description':
+        return value.length >= 10 && value.length <= 500 ? '' : 'La description doit contenir entre 10 et 500 caractères.';
+      case 'temps_preparation':
+      case 'temps_cuisson':
+        return /^\d{1,3}$/.test(value) ? '' : 'Le temps doit être un nombre entre 0 et 999 minutes.';
+      case 'personnes':
+        return /^[1-9]\d*$/.test(value) ? '' : 'Le nombre de personnes doit être un entier positif.';
+      case 'categorie':
+        return /^[a-zA-ZÀ-ÿ\s]{3,30}$/.test(value) ? '' : 'La catégorie doit contenir entre 3 et 30 caractères alphabétiques.';
+      default:
+        return '';
+    }
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setRecette(prev => ({ ...prev, [name]: value }));
+    const error = validateField(name, value);
+    setErrors(prev => ({ ...prev, [name]: error }));
   };
 
   const handleIngredientsChange = (e: React.ChangeEvent<HTMLTextAreaElement>, index: number) => {
@@ -37,6 +58,19 @@ const AjouterRecette: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    const formErrors: { [key: string]: string } = {};
+    Object.entries(recette).forEach(([key, value]) => {
+      if (typeof value === 'string') {
+        const error = validateField(key, value);
+        if (error) formErrors[key] = error;
+      }
+    });
+
+    if (Object.keys(formErrors).length > 0) {
+      setErrors(formErrors);
+      return;
+    }
+
     try {
       const response = await fetch(API_URL, {
         method: 'POST',
@@ -64,12 +98,14 @@ const AjouterRecette: React.FC = () => {
         etapes: [],
         categorie: ''
       });
+      setErrors({});
       alert('Recette ajoutée avec succès !');
     } catch (error) {
       console.error('Erreur lors de l\'ajout de la recette:', error);
       alert('Erreur lors de l\'ajout de la recette');
     }
   };
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
@@ -80,7 +116,7 @@ const AjouterRecette: React.FC = () => {
               Nom de la recette
             </label>
             <input
-              className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+              className={`w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline ${errors.nom ? 'border-red-500' : ''}`}
               type="text"
               id="nom"
               name="nom"
@@ -89,13 +125,14 @@ const AjouterRecette: React.FC = () => {
               required
               placeholder="Ex: Tarte aux pommes"
             />
+            {errors.nom && <p className="text-xs italic text-red-500">{errors.nom}</p>}
           </div>
           <div className="mb-4">
             <label className="block mb-2 font-bold text-gray-700" htmlFor="description">
               Description
             </label>
             <textarea
-              className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+              className={`w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline ${errors.description ? 'border-red-500' : ''}`}
               id="description"
               name="description"
               value={recette.description}
@@ -103,13 +140,14 @@ const AjouterRecette: React.FC = () => {
               required
               placeholder="Ex: Un plat végétarien provençal savoureux et coloré"
             />
+            {errors.description && <p className="text-xs italic text-red-500">{errors.description}</p>}
           </div>
           <div className="mb-4">
             <label className="block mb-2 font-bold text-gray-700" htmlFor="temps_preparation">
               Temps de préparation (min)
             </label>
             <input
-              className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+              className={`w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline ${errors.temps_preparation ? 'border-red-500' : ''}`}
               type="number"
               id="temps_preparation"
               name="temps_preparation"
@@ -117,13 +155,14 @@ const AjouterRecette: React.FC = () => {
               onChange={handleChange}
               required
             />
+            {errors.temps_preparation && <p className="text-xs italic text-red-500">{errors.temps_preparation}</p>}
           </div>
           <div className="mb-4">
             <label className="block mb-2 font-bold text-gray-700" htmlFor="temps_cuisson">
               Temps de cuisson (min)
             </label>
             <input
-              className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+              className={`w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline ${errors.temps_cuisson ? 'border-red-500' : ''}`}
               type="number"
               id="temps_cuisson"
               name="temps_cuisson"
@@ -131,13 +170,14 @@ const AjouterRecette: React.FC = () => {
               onChange={handleChange}
               required
             />
+            {errors.temps_cuisson && <p className="text-xs italic text-red-500">{errors.temps_cuisson}</p>}
           </div>
           <div className="mb-4">
             <label className="block mb-2 font-bold text-gray-700" htmlFor="difficulte">
               Difficulté
             </label>
             <select
-              className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+              className={`w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline ${errors.difficulte ? 'border-red-500' : ''}`}
               id="difficulte"
               name="difficulte"
               value={recette.difficulte}
@@ -149,13 +189,14 @@ const AjouterRecette: React.FC = () => {
               <option value="Moyenne">Moyenne</option>
               <option value="Difficile">Difficile</option>
             </select>
+            {errors.difficulte && <p className="text-xs italic text-red-500">{errors.difficulte}</p>}
           </div>
           <div className="mb-4">
             <label className="block mb-2 font-bold text-gray-700" htmlFor="personnes">
               Nombre de personnes
             </label>
             <input
-              className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+              className={`w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline ${errors.personnes ? 'border-red-500' : ''}`}
               type="number"
               id="personnes"
               name="personnes"
@@ -163,6 +204,7 @@ const AjouterRecette: React.FC = () => {
               onChange={handleChange}
               required
             />
+            {errors.personnes && <p className="text-xs italic text-red-500">{errors.personnes}</p>}
           </div>
           <div className="mb-4">
             <label className="block mb-2 font-bold text-gray-700" htmlFor="ingredients">
@@ -171,7 +213,7 @@ const AjouterRecette: React.FC = () => {
             {recette.ingredients.map((ingredient, index) => (
               <textarea
                 key={index}
-                className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+                className="w-full px-3 py-2 mb-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
                 value={ingredient}
                 onChange={e => handleIngredientsChange(e, index)}
                 required
@@ -193,7 +235,7 @@ const AjouterRecette: React.FC = () => {
             {recette.etapes.map((etape, index) => (
               <textarea
                 key={index}
-                className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+                className="w-full px-3 py-2 mb-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
                 value={etape}
                 onChange={e => handleEtapesChange(e, index)}
                 required
@@ -213,7 +255,7 @@ const AjouterRecette: React.FC = () => {
               Catégorie
             </label>
             <input
-              className="w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+              className={`w-full px-3 py-2 leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline ${errors.categorie ? 'border-red-500' : ''}`}
               type="text"
               id="categorie"
               name="categorie"
@@ -222,6 +264,7 @@ const AjouterRecette: React.FC = () => {
               required
               placeholder="Ex: Plat principal, Entrée, Dessert"
             />
+            {errors.categorie && <p className="text-xs italic text-red-500">{errors.categorie}</p>}
           </div>
           <div className="flex items-center justify-center">
             <button
@@ -236,7 +279,5 @@ const AjouterRecette: React.FC = () => {
     </div>
   );
 };
-
-
 
 export default AjouterRecette;
